@@ -1,8 +1,6 @@
 import type { Actions } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 import crypto from 'crypto';
-import { KEY, IV_KEY } from '$env/static/private';
-// import {CryptoHashInterface} from 'bun'
 
 const key = crypto.randomBytes(32);
 const iv = crypto.randomBytes(16);

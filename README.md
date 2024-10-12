@@ -1,38 +1,17 @@
-# create-svelte
+# starting this project
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+first of all, you need to install bun, to do that, you can install it [here](https://bun.sh/)
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+after that, you can clone this repository and run the following commands:
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+bun install
+bun run dev
 ```
 
-## Developing
+to use it, you can access the following url: [http://localhost:5173](http://localhost:5173)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## using the app
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+in the first form, insert the text you want to encrypt, and click on the "encrypt" button, then you will see the encrypted text in the result
+in the second form, insert the **encrypted** message from the first form, and click on the "decrypt" button, then you will see the decrypted text in the result
